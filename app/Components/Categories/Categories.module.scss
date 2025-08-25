@@ -1,0 +1,21 @@
+.categoriesList {
+  display: flex;
+  gap: 20px;
+
+  .category {
+    background-color: #333;
+    padding: 10px;
+    border-radius: 8px;
+    color: #fff;
+
+    &:hover {
+      cursor: pointer;
+      background-color: #ac1414;
+    }
+  }
+  
+  .active {
+    background: #ac1414;
+    color: white;
+  }
+}

@@ -1,0 +1,15 @@
+.categoryTitle {
+  margin-bottom: 10px;
+}
+
+.categoriesListing {
+  margin-bottom: 50px;
+}
+
+.postsList {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-column-gap: 30px;
+  grid-row-gap: 30px;
+}

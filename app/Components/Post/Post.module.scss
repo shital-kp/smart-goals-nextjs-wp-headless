@@ -1,0 +1,71 @@
+.card {
+  font-family: sans-serif;
+  width: 100%;
+  height: 325px;
+  border-radius: .6rem;
+  padding: 15px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.06);
+  outline: 1px solid #5858581a;
+
+  &:hover {
+    outline: 0px solid rgba(53, 53, 53, 0.323);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+}
+
+.card :hover{
+  cursor: pointer;
+}
+
+.imageWrapper {
+  position: relative;
+  border-radius: 8px;
+  overflow: hidden;
+  background-color: #9da3af;
+  width: 100%;
+  height: 200px;
+  margin-bottom: 10px;
+}
+
+.tag {
+  position: absolute;
+  top: 8px;
+  left: 8px;
+  background-color: rgba(255, 255, 255, 0.15);
+  padding: 4px 10px;
+  border-radius: 20px;
+  font-size: 12px;
+}
+
+.meta {
+  font-size: 12px;
+  color: #aaa;
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.title {
+  font-size: 18px;
+  margin: 6px 0;
+
+  a {
+    text-decoration: none;
+    color: #333;
+
+    &:hover {
+      color: #1a1a1a;
+    }
+  }
+}
+
+.excerpt {
+  font-size: 14px;
+  color: #bbb;
+  margin-top: 10px;
+  display: -webkit-box;
+  -webkit-line-clamp: 2; /* number of lines */
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}

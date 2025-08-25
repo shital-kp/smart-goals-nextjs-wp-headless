@@ -1,0 +1,35 @@
+.header {
+  background-color: #333;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 70px;
+
+  .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+
+    a {
+      text-decoration: none;
+      color: #fff;
+    }
+  }
+  
+  .nav {
+    display: flex;
+    gap: 1rem;
+    list-style: none;
+
+    .navItem {
+      a {
+        text-decoration: none;
+        color: #fff;
+
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+}
