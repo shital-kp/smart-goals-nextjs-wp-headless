@@ -4,7 +4,7 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 
   1. Clone this repository in your local environment.
   2. After cloning, open up a terminal in the same location and run -> **npm i or npm install**
-  3. Install a WordPress instance via Laragon or any preferred method.
+  3. Install a WordPress instance via Laragon or any preferred method. ([`Laragon Setup Link`](https://github.com/leokhoa/laragon/releases/download/6.0.0/laragon-wamp.exe))
   4. From WordPress Dashboard, go to Settings -> Permalinks and Select Post Name (ignore if already the case)
      <img width="1204" height="866" alt="image" src="https://github.com/user-attachments/assets/767952f1-c9b8-48f7-b452-2b0bdbeb6a73" />
 
